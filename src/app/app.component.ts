@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'attribute-directive';
+  title = 'attribute-directives';
+
+  className1='exOne';//same class name as in example one
+  className2='exTwo';
+
+  styleProperty='red';
+  txtColor='error';
+
+  name:string="Nithiya";
 }
+
